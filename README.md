@@ -1,15 +1,16 @@
 # langgraph-mini — Agentic AI Workflows and Applications Using LangGraph
 
-[![CI](https://github.com/<USER_OR_ORG>/<REPO>/actions/workflows/ci.yml/badge.svg)](https://github.com/<USER_OR_ORG>/<REPO>/actions/workflows/ci.yml)
+[![CI](https://github.com/SurajBhar/agentic-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/SurajBhar/agentic-ai/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue)](#)
 [![uv](https://img.shields.io/badge/uv-package%20manager-blue)](https://github.com/astral-sh/uv)
 [![Ruff](https://img.shields.io/badge/code%20style-ruff-black)](https://github.com/astral-sh/ruff)
-[![Tests](https://img.shields.io/badge/tests-pytest-brightgreen)](https://docs.pytest.org/)
-[![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-black)](https://github.com/astral-sh/ruff)
-[![Typing](https://img.shields.io/badge/typing-mypy-blue)](http://mypy-lang.org/)
-[![LangGraph](https://img.shields.io/badge/Built%20with-LangGraph-purple)](https://github.com/langchain-ai/langgraph)
-[![LangChain](https://img.shields.io/badge/Built%20with-LangChain-blueviolet)](https://github.com/langchain-ai/langchain)
+[![pytest](https://img.shields.io/badge/tests-pytest-brightgreen)](https://docs.pytest.org/)
+[![Last Commit](https://img.shields.io/github/last-commit/SurajBhar/agentic-ai)](https://github.com/SurajBhar/agentic-ai/commits/main)
+[![Issues](https://img.shields.io/github/issues/SurajBhar/agentic-ai)](https://github.com/SurajBhar/agentic-ai/issues)
+[![LangGraph](https://img.shields.io/badge/Built%20with-LangGraph-6f42c1)](https://github.com/langchain-ai/langgraph)
+[![LangChain](https://img.shields.io/badge/Built%20with-LangChain-8a2be2)](https://github.com/langchain-ai/langchain)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 A lightweight, production-ready template repository for building **agentic AI workflows** with **LangGraph** and **LangChain**.
 
