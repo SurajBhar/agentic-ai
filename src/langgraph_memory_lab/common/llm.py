@@ -28,6 +28,5 @@ def make_memory_llm(*, temperature: float = 0.0, model: Optional[str] = None, **
     settings = get_settings()
     model_name = model or settings.memory_model
     raise NotImplementedError(
-        "Implement memory LLM factory (often same provider/model). "
-        f"Requested model={model_name}"
+        f"Implement memory LLM factory (often same provider/model). Requested model={model_name}"
     )

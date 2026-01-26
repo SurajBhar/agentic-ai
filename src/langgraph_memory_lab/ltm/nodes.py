@@ -12,7 +12,7 @@ from __future__ import annotations
 from typing import Any, Dict, Iterable, List, Optional
 
 from ..common.text import bullet_join
-from .prompts import SYSTEM_PROMPT_TEMPLATE, MEMORY_PROMPT # noqa: F401
+from .prompts import SYSTEM_PROMPT_TEMPLATE, MEMORY_PROMPT  # noqa: F401
 
 
 def format_memories_for_prompt(memory_texts: Iterable[str]) -> str:
@@ -20,7 +20,9 @@ def format_memories_for_prompt(memory_texts: Iterable[str]) -> str:
     return bullet_join(memory_texts)
 
 
-def read_user_memories(*, store: Any, user_id: str, namespace: Optional[tuple] = None, limit: int = 50) -> List[str]:
+def read_user_memories(
+    *, store: Any, user_id: str, namespace: Optional[tuple] = None, limit: int = 50
+) -> List[str]:
     """Read user memories from the store (search/get)."""
     raise NotImplementedError("Implement Store read/search logic here.")
 
