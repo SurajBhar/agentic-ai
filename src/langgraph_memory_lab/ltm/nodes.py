@@ -12,7 +12,7 @@ from __future__ import annotations
 from typing import Any, Dict, Iterable, List, Optional
 
 from ..common.text import bullet_join
-from .prompts import SYSTEM_PROMPT_TEMPLATE, MEMORY_PROMPT
+from .prompts import SYSTEM_PROMPT_TEMPLATE, MEMORY_PROMPT # noqa: F401
 
 
 def format_memories_for_prompt(memory_texts: Iterable[str]) -> str:
